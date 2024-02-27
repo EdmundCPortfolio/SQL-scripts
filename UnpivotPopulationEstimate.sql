@@ -1,13 +1,11 @@
 
 /*
----------	---------------		---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Date		Change by			Description
----------	---------------		---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-20240226	EC			Script created. 
-20240226	EC			Data Source URL: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales
-20240226	EC			Data Source Spreadsheet: Mid-2011 to mid-2022 detailed time series edition of this dataset, myebtablesenglandwales20112022v2.xlsx
 
----------	---------------		---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File: UnpivotPopulationEstimate.sql
+Author: EC
+Data Source: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales
+Data Source: Spreadsheet: Mid-2011 to mid-2022 detailed time series edition of this dataset, myebtablesenglandwales20112022v2.xlsx
+
 */
 
 
