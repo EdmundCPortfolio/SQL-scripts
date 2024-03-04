@@ -1,4 +1,3 @@
-
 /*
 
 File: UnpivotPopulationEstimate.sql
@@ -7,7 +6,6 @@ Data Source: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmi
 Data Source: Spreadsheet: Mid-2011 to mid-2022 detailed time series edition of this dataset, myebtablesenglandwales20112022v2.xlsx
 
 */
-
 
 
 -- STEP 1 Create staging table which to import data into
