@@ -1,10 +1,8 @@
-
 /*
 
 File: UnpivotPopulationEstimate.sql
 Author: EC
 Data Source: Please see the script UnpivotPopulationEstimate.sql to create and populate the table stgTblPopulationEstimate
-
 
 */
 
