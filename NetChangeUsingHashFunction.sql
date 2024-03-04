@@ -17,7 +17,7 @@ Salary INT,
 HashValue VARBINARY(255))
 
 
--- Insert the initial set of employees’ details
+-- Insert the initial set of employeesâ€™ details
 IF EXISTS (
 	SELECT * FROM sys.objects
 	WHERE object_id = OBJECT_ID('Employee') AND type = 'u'
@@ -44,9 +44,7 @@ SET HashValue = HASHBYTES('SHA2_256',
 )
 
 /*
-
 SELECT EmployeeId, FirstName, SurName, Email, MobileNum, Salary, HashValue FROM Employee 
-
 */
 
 
@@ -85,7 +83,7 @@ SET HashValue = HASHBYTES('SHA2_256',
 )
 
 
--- Check which employees have are new hires, left the organisation or had their personal details updated 
+-- Check which employees are new hires, have left the organisation or had their personal details updated 
 SELECT
 Employee.EmployeeId
 ,Employee.FirstName
