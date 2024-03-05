@@ -91,7 +91,7 @@ Employee.EmployeeId
 ,Employee.HashValue
 ,CASE
 	WHEN Employee.HashValue = #temp.HashValue THEN 'No change to staff record'
-	WHEN Employee.EmployeeId IS NOT NULL AND Employee.HashValue <> #temp.HashValue THEN 'Change to personal information'
+	WHEN #temp.EmployeeId IS NOT NULL AND Employee.HashValue <> #temp.HashValue THEN 'Change to personal information'
 	WHEN #temp.EmployeeId IS NULL THEN 'Employee has left organisation. Deletion required'
 	END 'Type Of Update Required'
 FROM Employee
