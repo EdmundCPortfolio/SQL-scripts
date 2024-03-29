@@ -112,7 +112,7 @@ UPPER(F2)  AS Fname
 ,CAST(REPLACE(F3,',','') AS INT) AS 'PopulationCount'
 ,'F' AS 'Gender'
 ,'2021' AS 'BirthYear'
-,'E:\Work Files\SQL\Database Code\RankOfNames\Datset\Female\' + '2021girlsnames.xls' AS 'DataSource'
+,'D:\NationalData\Load\RankOfNames\Datset\Female\' + '2021girlsnames.xlsx' AS 'DataSource'
 ,GETDATE() AS 'DateOfImport'
 FROM OPENROWSET 
 ('Microsoft.ACE.OLEDB.12.0', 'Excel 12.0;Database=D:\NationalData\Load\RankOfNames\Datset\Female\2021girlsnames.xlsx;HDR=NO', 'select * from [1$]') AS A
