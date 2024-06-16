@@ -114,6 +114,7 @@ BEGIN
 END;
 
 
+--EXEC UnionTablesByYear '202324';
 --EXEC UnionTablesByYear '202425';
 
 GO
