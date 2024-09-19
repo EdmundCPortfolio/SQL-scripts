@@ -4,10 +4,10 @@ File: OPENROWSET_Import_Export_Example.sql
 Author: EC
 
 Description:
-This SQL script demonstrates the T-SQL function OPENROWSET, which allows connections to various data sources such as Excel, text files, Access, and Azure Blob Storage.
-To utilize OPENROWSET, the Ad Hoc Distributed Queries feature in SQL Server Management Studio (SSMS) must be enabled.
+This SQL script demos the T-SQL function OPENROWSET, which allows connections to a number of data sources including Excel, text files, Access and Azure Blob Storage.
+To utilise OPENROWSET, the Ad Hoc Distributed Queries feature in SQL Server Management Studio (SSMS) must be enabled.
 
-Part A of the script illustrates how to import data from an Excel spreadsheet, while Part B demonstrates how to export data to a CSV file.
+Part A of the script illustrates how to import data from an Excel spreadsheet, while Part B illustrates how to export data to a CSV file.
 
 
 */
