@@ -1,3 +1,15 @@
+/*
+
+File: BulkInsertFlatFile.sql
+Author: EC
+
+Description:
+The SQL script demos the bulk inset function in SQL.
+The script includes an example of importing a csv file and pipe delimited file
+
+*/
+
+
 --Create landing table
 CREATE TABLE DowJonesDailyClose (
     [Date] VARCHAR(19),
@@ -32,6 +44,5 @@ WITH (
     CODEPAGE = '65001' -- Use UTF-8 encoding
     
 );
-
 
 GO
