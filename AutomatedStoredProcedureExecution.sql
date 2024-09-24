@@ -1,4 +1,15 @@
 /*
+
+File: AutomatedStoredProcedureExecution.sql
+Author: EC
+
+Description:
+This script creates and populates a table with stored procedure names and descriptions, then sequentially executes each stored procedure, handling any errors that occur during execution
+
+*/
+
+
+/*
 Step 1
 
 Generate a list of stored procedures to simulate executing a series of procedure names which are stored in a table.
@@ -60,7 +71,7 @@ GO
 /*
 Step 2
 
-Create a table to hold the lsit of stored procedure names and descritons.
+Create a table to hold the list of stored procedure names and descriptions.
 
 */
 
@@ -75,7 +86,7 @@ GO
 /*
 Step 3
 
-Popualte the table with the names of the stored procedures
+Populate the table with the names of the stored procedures
 
 */
 
@@ -105,7 +116,7 @@ GO
 /*
 Step 4
 
-Execute each stored procedure by referencing the ProcedureListTable.
+Execute each stored procedure, referencing the table ProcedureListTable
 
 */
 
